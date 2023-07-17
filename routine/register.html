@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body align=left>
+	<font color="white" face="Comic Sans MS"><br>
+		<h1><b><u>Register Here</u></b></h1>
+	 <div class="login-box">
+        
+	<form action="register.php" method="post">
+	Unique id:<br>(5 digits) <input type="number" name="Visitor_id"><br><br>
+	Name: <input type="text" name="Name" required="Please enter the value"><br><br>
+	Age: <input type="number" name="Age" required="Please enter the value" min="2" max="90"><br><br>
+	Gender: 
+	<input type="radio" name="Gender" value="Male" required="Please enter the value"> Male
+  	<input type="radio" name="Gender" value="Female" required="Please enter the value"> Female <br><br>
+	Address: <input type="text" name="Address" required="Please enter the value"><br><br>
+	Phone: <input type="text" pattern="[0-9]{10}" name="Phone" required="Please enter the value"><br><br>
+	Email_id: <input type="Email" name="Email_id" required="Please enter the value"><br><br>
+	Specific conditions: <!-- <input type="text" name="Specific_conditions" required="Please enter the value"><br><br> -->
+	<select name="Specific_conditions">
+		<option>--Select--</option>
+		<option name="Specific_conditions" value="Diabetes">Diabetes</option>
+		<option name="Specific_conditions" value="Blood Pressure">Blood Pressure</option>
+		<option name="Specific_conditions" value="Thyroid">Thyroid</option>
+		<option name="Specific_conditions" value="Skin Diseases">Skin Diseases</option>
+		<option name="Specific_conditions" value="Obesity">Obesity</option>
+		<option name="Specific_conditions" value="Deficiency">Deficiency</option>
+	</select><br><br>
+	New Username: <input type="text" name="Username" required="Please enter the value"><br><br>
+	Password: <input type="Password" name="Password" required="Please enter the value"><br><br>
+	<button> <font face="Comic Sans MS" color="blue">SUBMIT</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <script src="filename.js"></script>
+</form>
+</body>
+</html>

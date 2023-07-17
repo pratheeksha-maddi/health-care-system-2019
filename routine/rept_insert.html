@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Routine</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body align=left>
+	<font color="white" face="Times New Roman"><br>
+		<h2><b><u>Insert Report details</u></b></h2>
+	 <div class="login-box">
+        
+	<form action="rept_insert.php" method="post">
+	Report_id :  <input type="number" name="Report_id" required="Please enter the value"><br><br>
+	Visitor_id: <input type="number" name="Visitor_id" required=""><br><br>
+	Report_date :  <input type="date" name="Report_date" required="Please enter the value" min="2018-01-01" max="2019-11-12"><br><br>
+	Tests_undergone : <input type="text" name="Tests_undergone" required="Please enter the value"><br><br>
+	Bill_id : <input type="number" name="Bill_id" required="Please enter the value"><br><br>
+	Bill_amnt : <input type="number" name="Bill_amnt" required="Please enter the value"><br><br>
+	Status : <select name="Status">
+				<option>--Select--</option>
+			 <option value="Not Paid">Not Paid</option>
+			 <option value="Paid">Paid</option>
+			 </select><br><br><br><br>
+	
+	<button> <font face="Times New Roman" color="blue">SUBMIT</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <script src="filename.js"></script>
+</form>
+</body>
+</html>

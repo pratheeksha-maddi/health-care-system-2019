@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Consultations</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+<font color="white" face="Times New Roman" size=4><br><br> 
+</head>
+
+<body align=left>
+	<font color="white" face="Times New Roman"><br>
+		<h1><b><u>Insert Consultation</u></b></h1>
+	 <div class="login-box">
+        
+	<form action="consult_insert.php" method="post">
+	Visitor_id: <input type="number" name="Visitor_id"><br><br>
+	N_id: <select name="N_id">
+		<option>--Select--</option>
+		<option value="502">502</option>
+		<option value="507">507</option>
+		<option value="509">509</option>
+	</select><br><br>
+	Date_visited :  <input type="date" name="Date_visited" required="Please enter the value" min="2018-01-01" max="2019-11-18"><br><br>
+	<!-- To_date :  <input type="date" name="To_date" required="Please enter the value"><br><br> --> 
+	Recommendation : <input type="text" name="Recommendation" required="Please enter the value"><br><br>
+	Improvements: <input type="text" name="Improvement" required="Please enter the value"><br><br>
+	Tests : <input type="text" name="Tests" required="Please enter the value"><br><br>
+	Bill_id : <input type="number" name="Bill_id" required="Please enter the value"><br><br>
+	<button> <font face="Comic Sans MS" color="blue">SUBMIT</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <script src="filename.js"></script>
+</form>
+</body>
+</html>

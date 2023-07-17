@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Routine</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+
+<body align=left>
+	<font color="white" face="Times New Roman"><br>
+		<h1><b><u>Insert Routine details</u></b></h1>
+	 <div class="login-box1">
+        
+	<form action="rout_insert.php" method="post">
+	Visitor_id: <input type="number" name="Visitor_id"><br><br>
+	From_date :  <input type="date" name="From_date" required="Please enter the value" min="2018-01-01" max="2019-11-18"><br><br>
+	To_date :  <input type="date" name="To_date" required="Please enter the value" min="2018-01-01" max="2019-11-18"><br><br>
+	Avg_Calorie_intake_<br>(in Kcal/day) : <input type="number" name="Calorie_intake" required="Please enter the value" min="1500" max="3500"><br><br>
+	Avg_Water_intake_<br>(in L/day): <input type="number" name="Water_intake" required="Please enter the value" min="1" max="5"><br><br>
+	Steps_walked : <input type="number" name="Steps_walked" required="Please enter the value" ><br><br>
+	Hours_sleep : <input type="number" name="Hours_sleep" required="Please enter the value" min="3" max="16"><br><br>
+	Hours_Physical<br>_activity : <input type="number" name="Hours_Physical" required="Please enter the value" min="1" max="5"><br><br>
+	Avg_heart_rate : <input type="number" name="Avg_heart_rate" required="Please enter the value" min="70" max="180"><br><br>
+	Weight : <input type="number" name="Weight" required="Please enter the value" min="20" max="180"><br><br>
+	<button> <font face="Times New Roman" color="blue">SUBMIT</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <script src="filename.js"></script>
+</form>
+</body>
+</html>

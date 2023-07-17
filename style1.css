@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/home.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding: 10 10 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.login-box{
+    width: 390px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+.login-boxx{
+    width: 290px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-color : blue;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 33px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 18px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+
+    
+}
